@@ -1,5 +1,3 @@
-# DO NOT USE! THERE IS A BUG
-
 # Clipboard Image Sender
 A simple script to send image in your clipboard (or any file you specify) to your KDE Connect device.
 
