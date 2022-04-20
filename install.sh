@@ -17,12 +17,6 @@ else
     fi
 fi
 
-# Check for essential dependencies
-if [ -z "$(which qrcp)" ]; then
-    echo "qrcp is not installed. Please visit https://github.com/claudiodangelis/qrcp"
-    exit 1
-fi
-
 if [ -z "$(which kdeconnect-handler)" ]; then
     echo "kdeconnect-handler is not installed. Please install kdeconnect with your package manager."
     exit 1
