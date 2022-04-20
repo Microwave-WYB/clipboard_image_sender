@@ -37,12 +37,13 @@ rm ~/.local/bin/send
 
 ## Usage
 
+**Send to KDE Connect device**
+
 To send an image to your device, take a screenshot and save it to clipboard. Then run the script:
 
 ```bash
 send
 ```
-**Send to KDE Connect device**
 
 This will automatically open the `kdeconnect-handler` interface, you will need to select the device you want to send the image to.
 
