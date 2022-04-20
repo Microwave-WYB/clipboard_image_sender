@@ -62,7 +62,7 @@ do
 done
 
 # Send existing file
-if [ $existing_file = true ] && [ -f $filename ]; then
+if [ $existing_file == true ] && [ -f $filename ]; then
     echo "$handler $filename"
     $handler $filename
     exit 0
