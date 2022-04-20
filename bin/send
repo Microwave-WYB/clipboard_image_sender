@@ -62,7 +62,7 @@ do
 done
 
 # Send existing file
-if [ $existing_file == true ] && [ -f $filename ]; then
+if [ $existing_file ] && [ -f $filename ]; then
     echo "$handler $filename"
     $handler $filename
     exit 0
@@ -70,12 +70,8 @@ fi
 
 # Run command
 if $cb_cmd > "$filename"; then
+    echo "$handler $filename"
     $handler "$filename"
 else
     echo "Failed to save screenshot. Please make sure you have an image in your clipboard."
-fi
-
-# Remove temporary file
-if [ -f "$filename" ]  ; then
-    rm "$filename"
 fi
