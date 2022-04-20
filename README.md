@@ -10,6 +10,12 @@ A simple script to send image in your clipboard (or any file you specify) to you
 
 ## Installation
 
+First, clone the repository:
+
+```bash
+git clone https://github.com/Microwave-WYB/clipboard_image_sender.git
+```
+
 Use the `install.sh` script to install.
 
 ```bash
