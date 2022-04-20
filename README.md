@@ -14,6 +14,7 @@ First, clone the repository:
 
 ```bash
 git clone https://github.com/Microwave-WYB/clipboard_image_sender.git
+cd clipboard_image_sender
 ```
 
 Use the `install.sh` script to install.
